@@ -1,0 +1,20 @@
+.rating_button {
+  border: 0;
+  border-radius: 50%;
+  background-color: var(--darl-blue);
+  color: var(--dark-grey);
+  font-size: 15px;
+  width: 40px;
+  height: 40px;
+}
+
+.rating_button:hover {
+  background-color: var(--primary-color);
+  cursor: pointer;
+  color: var(--white);
+}
+
+.rating_button:focus {
+  background-color: var(--light-grey);
+  color: var(--white);
+}

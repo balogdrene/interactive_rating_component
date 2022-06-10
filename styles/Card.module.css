@@ -1,0 +1,23 @@
+.card {
+  padding: 2rem;
+  border-radius: 15px;
+  background: radial-gradient(
+    at top,
+    var(--darl-blue) 20%,
+    var(--very-dark-blue) 130%
+  );
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.card h1 {
+  color: var(--white);
+}
+
+.card p {
+  color: var(--light-grey);
+}
